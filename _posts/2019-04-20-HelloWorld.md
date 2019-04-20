@@ -1,5 +1,5 @@
 # Hello World!
-I have been in residing in Internet before I landed here in some of the places lised below,
+I have been in residing in Internet before I landed in here, some of the places I have been beofre listed below,
 
 * [Medium](https://medium.com/@bitsmonkey)
 * [Blogger](https://bitsmonkey.blogspot.com/)
