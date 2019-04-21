@@ -1,5 +1,5 @@
 # Hello World!
-I have been in residing in Internet before I landed in here, some of the places I have been before listed below,
+I have been residing in Internet for a while before I landed in here, some of the places I have been before listed below,
 
 * [Github](https://github.com/unrealnerd/)
 * [Dev.To](https://dev.to/bitsmonkey)
