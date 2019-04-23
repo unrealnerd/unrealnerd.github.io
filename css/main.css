@@ -1,6 +1,9 @@
 .container{
-    margin-top: 4em;
+    margin-top: 4em;    
 }
 .container img{
     width:100%;
+}
+.navbar-brand{
+    margin: 1rem 0 0 2rem;
 }
