@@ -3,8 +3,9 @@ layout: default
 title: Arjun Shetty, BitsMonkey
 ---
 <!-- Fixed First Post-->
-<div class="row mt-5">
+<div class="row">
     <article class="post">
+        <h1>{{ site.posts[0].title }}</h1>
         <time
             datetime="{{ site.posts[0].date | date: "%Y-%m-%d" }}">{{ site.posts[0].date | date_to_long_string }}</time>
         {{ site.posts[0].content }}
