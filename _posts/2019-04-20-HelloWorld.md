@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: Hello World
+author: bitsmonkey
 description: Self Introduction
 tags: ngrok, tunnelling, webhook
 ---
