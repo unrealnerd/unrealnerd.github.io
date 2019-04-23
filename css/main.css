@@ -1,9 +1,15 @@
 .container{
     margin-top: 4em;    
 }
-.container img{
+.container article.post .coverimage{/* for the cover image in the post*/
     width:100%;
 }
-.navbar-brand{
+.navbar-brand/* the one  which shows the bitsmonkey logo on left top*/
+{
     margin: 1rem 0 0 2rem;
+}
+.postlist/* this one is used in home page bottom list of posts*/
+{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
