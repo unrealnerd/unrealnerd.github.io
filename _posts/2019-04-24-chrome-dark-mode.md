@@ -6,7 +6,7 @@ author: bitsmonkey
 tags: tips, chrome, theme
 ---
 
-![dark-side](../img/dark-side.jpg)
+![dark-side](/img/dark-side.jpg)
 
 With Chrome 64 you can enable dark theme.
 
