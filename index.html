@@ -19,13 +19,16 @@ title: Arjun Shetty, BitsMonkey
 
 {% for post in site.posts %}
 <article class="postlist">
-    <h3>
-        {{ post.title }}
-    </h3>
-    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-    <a href="{{ post.url }}">
-        {{ post.title }}
-    </a>
+    
+    <div class="postlistatthebottomofhomepage">
+        <h3>
+            {{ post.title }}
+        </h3>
+        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+        <a href="{{ post.url }}">
+            {{ post.title }}
+        </a>    
+    </div>
 
 </article>
 {% endfor %}

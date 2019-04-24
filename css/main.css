@@ -25,3 +25,9 @@
     /* this one is used in default layout just after the post date entry*/
     padding-top: 1rem;
 }
+.postlistatthebottomofhomepage{
+    padding-bottom: 1rem;
+    border-bottom-width: thin;
+    border-bottom-style:solid;
+    border-bottom-color: #00000012;
+}
