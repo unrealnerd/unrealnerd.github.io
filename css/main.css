@@ -1,5 +1,10 @@
 .container {
-    margin-top: 4em;
+    margin-top: 6em;
+}
+
+.navigationbar {
+    padding-top: 2rem;
+    padding-left: 2rem;
 }
 
 .container article.post .coverimage {
@@ -7,12 +12,7 @@
     width: 100%;
 }
 
-.navbar-brand
 
-/* the one  which shows the bitsmonkey logo on left top*/
-    {
-    margin: 1rem 0 0 2rem;
-}
 
 .postlist
 
@@ -25,9 +25,15 @@
     /* this one is used in default layout just after the post date entry*/
     padding-top: 1rem;
 }
-.postlistatthebottomofhomepage{
+
+.postcontent img {
+    /* all the images inside the main container*/
+    padding: 1rem;
+}
+
+.postlistatthebottomofhomepage {
     padding-bottom: 1rem;
     border-bottom-width: thin;
-    border-bottom-style:solid;
+    border-bottom-style: solid;
     border-bottom-color: #00000012;
 }
