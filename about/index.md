@@ -15,7 +15,7 @@ the time'.
 If you this below picture anywhere, that might be me! You can leave any kind of feedback at
 arjunshetty2020@gmail.com.
 
-![bitsmonkey](/img/bits.gif){:height="100px" width="100px"}
+![bitsmonkey](/img/bitsmonkey.svg){:height="100px" width="100px"}
 
 <br/>
 I have been residing in Internet for a while before I landed in here, some of the places I have been before listed below,
