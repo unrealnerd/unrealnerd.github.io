@@ -6,7 +6,7 @@ description: Self Introduction
 tags: ngrok, tunnelling, webhook
 ---
 ## Hi there!
-I am a kinda a guy who would understand you more if you were to code than talk.
+I would understand you more if you were to code than talk.
 I would always prefer coding over any any other means of communications. Dont get me wrong. I am an excellent
 social being. Unless I feel you are annoying or
 FAKE!. <br />
