@@ -13,7 +13,7 @@ tags: CORS, dotnetcore, webapi
 
 This post will help look into enabling CORS in dotnet core application. Every POST request before posting the actual requests will send an [Preflighted requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests) using the OPTION method like the below sample.
 
-```http
+```
             OPTIONS {{apiendpoint}}/api/web/incoming HTTP/1.1
             Access-Control-Request-Method: POST
             Origin: http://localhost:4200

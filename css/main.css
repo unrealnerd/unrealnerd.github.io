@@ -7,6 +7,10 @@
     padding-left: 2rem;
 }
 
+.nav-link{
+    color: seagreen;
+}
+
 .container article.post .coverimage {
     /* for the cover image in the post*/
     width: 100%;
@@ -40,4 +44,7 @@
 
 .postlistatthebottomofhomepage h5 {
     color: seagreen;
+}
+.post h1{
+    color: darkgray;
 }
