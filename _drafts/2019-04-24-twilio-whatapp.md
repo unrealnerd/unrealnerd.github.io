@@ -17,7 +17,7 @@ Create an console application using dotnet commands, and use the below code to s
 
 ```csharp
         public void SendMessage(string body, string phoneNumber)
-        {           
+        {
             TwilioClient.Init(_whatsAppOptions.Value.TwilioAccountSid, _whatsAppOptions.Value.TwilioAuthToken);
 
             try

@@ -5,6 +5,7 @@ description: Enabling CORS forin sptnet core application across all the controll
 author: bitsmonkey
 tags: CORS, dotnetcore, webapi
 ---
+
 <br/>
 
 [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - Cross Origin Resource Sharing, basically helps our application from Cross site scripting attacks. This will restrict a website from access or sending data to another origin( web app).
@@ -18,6 +19,7 @@ This post will help look into enabling CORS in dotnet core application. Every PO
             Access-Control-Request-Method: POST
             Origin: http://localhost:4200
 ```
+
 This is to check if the actual request method in this case POST is allowed or not.
 
 So to enable this in dotnet core we use [AddCors](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.mvccorsmvccorebuilderextensions.addcors?view=aspnetcore-2.2) of the IServiceCollection in `StartUp.cs` like below.
