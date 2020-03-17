@@ -6,7 +6,7 @@ author: bitsmonkey
 tags: soap, dotnet core, soap service
 ---
 
-![Image by <a href="https://pixabay.com/users/Merio-1480566/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=990304">Merio</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=990304">Pixabay</a>](/../img/soapservice-dotnetcore.jpg)
+![Image by Merio - from Pixabay](/../img/soapservice-dotnetcore.jpg)
 
 Here is how we consume a SOAP service in dotnet core.
 
@@ -30,4 +30,6 @@ soapClient soapClient = new soapClient(
 
 soapClient.Method1();
 ```
+
+-- *Image by Merio - from Pixabay*
 
