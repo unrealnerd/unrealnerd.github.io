@@ -1,5 +1,6 @@
 name: Arjun Shetty, Bitsmonkey
-  markdown:kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
 permalink: /blog/:year/:month/:day/:title
-plugins:
-  - jekyll_github_sample
