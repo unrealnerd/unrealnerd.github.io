@@ -151,4 +151,4 @@ Query2
 For the full source code checkout this [GitHub Repo](https://github.com/unrealnerd/graphql-sample).
 
 
---Photo by Alina Grubnyak on Unsplash--
+*Photo by Alina Grubnyak on Unsplash*
