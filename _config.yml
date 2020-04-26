@@ -1,3 +1,5 @@
 name: Arjun Shetty, Bitsmonkey
   markdown:kramdown
 permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll_github_sample
