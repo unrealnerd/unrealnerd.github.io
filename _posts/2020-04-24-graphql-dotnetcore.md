@@ -6,8 +6,6 @@ author: bitsmonkey
 tags: dotnetcore, graphql, api
 ---
 
-<br/>
-
 What does GraphQL solve?
 
 Overfetching, Underfetching, and reduced round trips. While using GraphQL we move the control of data over to API instead of the client-side. Also, GraphQL came to existence from the labs of Facebook while working on a mobile app.

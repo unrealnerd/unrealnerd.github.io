@@ -5,9 +5,6 @@ description: random toughts on fear of breaking things in software development
 author: bitsmonkey
 tags: softwaredevleopment, developer, bugs 
 ---
-
-<br/>
-
 ![experiment](/img/experiment-to-learn.jpg){:.coverimage}
 
  

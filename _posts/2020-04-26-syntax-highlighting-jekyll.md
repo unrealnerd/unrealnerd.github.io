@@ -6,8 +6,6 @@ author: bitsmonkey
 tags: code highlight, syntax, jekyll
 ---
 
-<br/>
-
 Here is a way to highlight your code on Jekyll site using the same Markdown syntax that Github supports. I have been using [github markdown](https://guides.github.com/features/mastering-markdown/) day-in & day-out mostly with [github gists](http://gist.github.com/).
 
 ![syntax-hghlight](/img/syntax-highlight.jpg)
