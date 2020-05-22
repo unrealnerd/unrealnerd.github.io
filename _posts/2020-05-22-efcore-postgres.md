@@ -11,7 +11,7 @@ Add the postgres ef library to your project from [Nuget.org](https://www.nuget.o
 
     `dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL --version 3.1.3`
 
-Setting the efocre middleware on `Startup.cs`, and picking the connection string from app settings
+Setting the efcore middleware on `Startup.cs`, and picking the connection string from app settings
 
     ```csharp
     services.AddDbContext<DdlContext>(options =>
