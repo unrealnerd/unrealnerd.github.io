@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Experiment, to learn!
-description: random toughts on fear of breaking things in software development
+description: random thoughts on fear of breaking things in software development
 author: bitsmonkey
 tags: softwaredevleopment, developer, bugs 
 ---
@@ -11,7 +11,7 @@ tags: softwaredevleopment, developer, bugs
 
 Break Things! Don't take this literally it might cost your job :).
 
-In Software Development these words are expensive and never will you hear from the management. Well one thing I learned from years of experience is that 
+In Software Development these words are expensive and never will you hear from the management. Well one thing I learned from years of experience is that
 
 _I only learn when I break things_.
 
@@ -29,9 +29,7 @@ Now instead of only seeing the Hello World! printed out you would have seen enou
 
 This is where the _fear_ seeps in!. Here usually we fear to even fix something assuming it breaks somewhere else.
 
-There is no ideal code in this world once any software has gone from being a teenager. Everyone expects the code to behave,
-
-as the social barriers have formed and the reputation takes over.
+There is no ideal code in this world once any software has gone from being a teenager. Everyone expects the code to behave,as the social barriers have formed and the reputation takes over.
 
 One way to learn from these huge systems is by going through code some else has written this is the best way to learn. Never complain about anyone's code, it might not always be a lack of knowledge there are a thousand factors that could have evolved to what it has become now. The top factor is Time given to complete a feature or bug.
 
