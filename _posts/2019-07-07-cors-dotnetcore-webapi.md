@@ -10,7 +10,7 @@ tags: CORS, dotnetcore, webapi
 
 [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - Cross Origin Resource Sharing, basically helps our application from Cross site scripting attacks. This will restrict a website from access or sending data to another origin( web app).
 
-![Photo by Banter Snaps on Unsplash](/../img/corsdotnetcore.jpg)
+![Photo by Banter Snaps on Unsplash](/../img/corsdotnetcore.jpg){:.coverimage}
 
 This post will help look into enabling CORS in dotnet core application. Every POST request before posting the actual requests will send an [Preflighted requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS#Preflighted_requests) using the OPTION method like the below sample.
 
