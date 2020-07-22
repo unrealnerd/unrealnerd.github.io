@@ -5,8 +5,9 @@ description: Simple web app to serve with go
 author: bitsmonkey
 tags: golang, tutorial, programming 
 ---
+![golang simple webserver](/img/golang-server-cover.jpg){:.coverimage}
 
-Lets us create a simpe web appilcation which will serve static files a html template using golang
+Lets us create a simple web application which will serve static files a html template using golang
 
 Here is how the structure of my project looks like. Ignore the npm and config files.
 
@@ -26,11 +27,11 @@ func main() {
   //maps the hosted file server to the route "/static/"
 	http.Handle("/static/", fs)
   
-  // moved the http hanlders to a different package to keep the main clean.
+  // moved the http handlers to a different package to keep the main clean.
   // also provided a way to pass arguments from main to handlers
 	http.HandleFunc("/", handlers.Home(t))
 
-	fmt.Println("Listenting on 8000")
+	fmt.Println("Listening on 8000")
 	fmt.Println(http.ListenAndServe(":8000", nil))
 }
 
@@ -56,7 +57,7 @@ func Home(t *template.Template) func(http.ResponseWriter, *http.Request) {
 }
 ```
 
-Explainations as inline comments.
+Explanations as inline comments.
 
 Inside the html file this is how you access the properties of the model passed.
 
@@ -70,4 +71,4 @@ Inside the html file this is how you access the properties of the model passed.
 #### Further Reading for details on the go packages used
 
 - [golang http package - used to create the web server](https://golang.org/pkg/net/http/)
-- [template - used for passsing data from the server](https://golang.org/pkg/html/template/)
+- [template - used for passing data from the server](https://golang.org/pkg/html/template/)
