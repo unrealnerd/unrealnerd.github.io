@@ -10,7 +10,7 @@ Lets us create a simpe web appilcation which will serve static files a html temp
 
 Here is how the structure of my project looks like. Ignore the npm and config files.
 
-![go simple web app folder structure](../img/go-simple-webapp.png)
+![go simple web app folder structure](/img/go-simple-webapp.png)
 
 Here is the full code snippets from main and handler 
 
