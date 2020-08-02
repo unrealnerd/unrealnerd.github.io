@@ -1,14 +1,23 @@
+
 .container {
     margin-top: 6em;
 }
 
 .navigationbar {
-    padding-top: 2rem;
+    padding-bottom: .5rem;
     padding-left: 2rem;
+    background-color: #272B30;
 }
 
 .nav-link {
-    color: seagreen;
+    color: #66d9ef;
+}
+.postlistatthebottomofhomepage h5 {
+    color: #66d9ef;
+}
+
+.post h1 {
+    color: #66d9ef;
 }
 
 .container article.post .coverimage {
@@ -45,10 +54,3 @@
     border-bottom-color: #00000012;
 }
 
-.postlistatthebottomofhomepage h5 {
-    color: seagreen;
-}
-
-.post h1 {
-    color: black;
-}

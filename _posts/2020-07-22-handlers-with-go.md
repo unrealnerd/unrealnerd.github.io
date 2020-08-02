@@ -15,8 +15,8 @@ Here is how the structure of my project looks like. Ignore the npm and config fi
 
 Here is the full code snippets from main and handler 
 
-```main.go
-
+```go
+//main.go
 func main() {
   // parses all the html template files placed in this folder
 	t := template.Must(template.ParseGlob("template/*"))
@@ -36,8 +36,8 @@ func main() {
 }
 
 ```
-```handlers/home.go
-
+```go
+//handlers/home.go
 //Home .. handles "/" route
 func Home(t *template.Template) func(http.ResponseWriter, *http.Request) {
   // create a sample message struct which can be used inside the template html files
