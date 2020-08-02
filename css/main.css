@@ -5,8 +5,8 @@
 
 .navigationbar {
     padding-bottom: .5rem;
-    padding-left: 2rem;
     background-color: #272B30;
+    border: none;
 }
 
 .nav-link {
