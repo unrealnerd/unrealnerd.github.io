@@ -1,7 +1,10 @@
-
 /* .container {
     margin-top: 6em;
 } */
+body {
+    font-family: 'Roboto';
+    font-size: larger;
+}
 
 .navigationbar {
     padding-bottom: .5rem;
@@ -12,6 +15,7 @@
 .nav-link {
     color: #66d9ef;
 }
+
 .postlistatthebottomofhomepage h5 {
     color: #66d9ef;
 }
@@ -22,7 +26,10 @@
 
 .container article.post .coverimage {
     /* for the cover image in the post*/
-    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 
@@ -44,7 +51,7 @@
     /* all the images inside the main container*/
     padding: 1rem;
     height: 30rem;
-    width: 100%;
+    width: auto;
 }
 
 .postlistatthebottomofhomepage {
@@ -54,3 +61,14 @@
     border-bottom-color: #00000012;
 }
 
+.social-buttons {
+    align-content: center;
+    position: fixed;
+    top: 400px;
+}
+
+.social-buttons li {
+    list-style-type: none;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+}
