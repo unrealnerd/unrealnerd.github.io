@@ -18,7 +18,7 @@ loggingHandler := newLoggingHandler(logFile)
 
 mux.Handle("/query", loggingHandler(mainhandler))
 ``` 
-You get the gist of it. So now create your own handler to handle authentication using jwt token.
+You get the gist of it. So now create our own handler to handle authentication using jwt token.
 
 
 
