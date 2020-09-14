@@ -61,6 +61,11 @@ body {
     border-bottom-color: #00000012;
 }
 
+.postlistatthebottomofhomepage a {
+    color: #80faff;
+}
+
+
 .social-buttons {
     align-content: center;
     position: fixed;

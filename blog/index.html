@@ -2,27 +2,28 @@
 layout: default
 title: Blog Entires
 ---
-	<h1> {{ page.title }} </h1>
-	<ul class="posts">
 
-	  {% for post in site.posts%}
-	    <li class="postlist"><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
-	<article class="posts">
-			<h5>
-					Still older blogs are in here
-			</h5>
-			<ul>
-					<li>
-							<a href="https://dev.to/bitsmonkey">Dev.to</a>
-					</li>
-					<li>
-							<a href="https://medium.com/@bitsmonkey">Medium</a>
-					</li>
-					<li>
-							<a href="https://bitsmonkey.blogspot.com/">Blogger</a>
-					</li>
-			</ul>
+<ul class="posts">
 	
-	</article>
+	{% for post in site.posts%}
+	<li class="postlist"><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}"
+			title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endfor %}
+</ul>
+<article class="posts">
+	<h5>
+		Still older blogs are in here
+	</h5>
+	<ul>
+		<li>
+			<a href="https://dev.to/bitsmonkey">Dev.to</a>
+		</li>
+		<li>
+			<a href="https://medium.com/@bitsmonkey">Medium</a>
+		</li>
+		<li>
+			<a href="https://bitsmonkey.blogspot.com/">Blogger</a>
+		</li>
+	</ul>
+
+</article>
