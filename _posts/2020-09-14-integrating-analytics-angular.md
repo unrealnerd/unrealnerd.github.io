@@ -6,7 +6,7 @@ author: bitsmonkey
 tags: quicknotes, adobe-analytics, window, angular
 ---
 
-![adobe-analytics](../img/adobe-analytics.jpg){:.coverimage}
+![adobe-analytics](/img/adobe-analytics.jpg){:.coverimage}
 
 This notes will hold good for any kind a integration with third-party tools who require our application to include theier scripts and call them to send tracking information. Tried my best keep it as much as angular way to do it.
 
