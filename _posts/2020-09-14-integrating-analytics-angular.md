@@ -8,12 +8,12 @@ tags: quicknotes, adobe-analytics, window, angular
 
 ![adobe-analytics](/img/adobe-analytics.jpg){:.coverimage}
 
-This notes will hold good for any kind a integration with third-party tools who require our application to include theier scripts and call them to send tracking information. Tried my best keep it as much as angular way to do it.
+This notes will hold good for any kind of who require our application to include their scripts and call their methods. Tried my best keep it as much as angular way to do it.
 
-Lets first create a type that will define the schema of the information that needs to be sent to the thirdparty thorugh the injected scripts. In our case below is the metrics model that will be used to track and analyze on our Adobe Dashboard.
+Lets first create a type that will define the schema of the information that needs to be sent to the third-party through the injected scripts. In our case below is the metrics model that will be used to track and analyze on our Adobe Dashboard.
 
 ```ts
-\\metrics.model.ts
+//metrics.model.ts
 export interface Metrics {
     applicationame: string;
     country: string;
