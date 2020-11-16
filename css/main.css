@@ -6,22 +6,26 @@ body {
     font-size: larger;
 }
 
+a {
+    color: #7dc1cf;
+}
+
 .navigationbar {
     padding-bottom: .5rem;
-    background-color: #272B30;
+    background-color: #ffffff00;
     border: none;
 }
 
 .nav-link {
-    color: #66d9ef;
+    color: #7dc1cf;
 }
 
 .postlistatthebottomofhomepage h5 {
-    color: #66d9ef;
+    color: #7dc1cf;
 }
 
 .post h1 {
-    color: #66d9ef;
+    color: #7dc1cf;
 }
 
 .container article.post .coverimage {
@@ -37,9 +41,10 @@ body {
 .postlist
 
 /* this one is used in home page bottom list of posts*/
-    {
+{
     padding-top: 1rem;
 }
+
 
 .postcontent {
     /* this one is used in default layout just after the post date entry*/
@@ -61,19 +66,14 @@ body {
     border-bottom-color: #00000012;
 }
 
-.postlistatthebottomofhomepage a {
-    color: #80faff;
-}
-
-
 .social-buttons {
     align-content: center;
     position: fixed;
-    top: 400px;
+    top: 300px;
 }
 
 .social-buttons li {
     list-style-type: none;
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
     font-size: 2rem;
 }
