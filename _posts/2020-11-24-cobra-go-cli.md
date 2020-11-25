@@ -8,7 +8,7 @@ tags: golang, cobra, cli, go
 
 ![cobra-golang-cli](/img/cobra-golang-cli.jpg){:.coverimage}
 
-Getting work done the plain vanilla way is doing it in cli so I ended up here. Dont you love docker cli, github cli. who would'nt? most of the new cli's are built using golang [cobra framework](https://github.com/spf13/cobra).
+Getting work done the plain vanilla way is doing it in cli so I ended up here. Don't you love docker cli, github cli. who wouldn't? most of the new cli's are built using golang [cobra framework](https://github.com/spf13/cobra).
 
 Let's try this out. In this example I will try to build a cli which will talk to DB like getting schema information from a postgres DB.
 For starters I recommend using [Cobra Generators](https://github.com/spf13/cobra#using-the-cobra-generator). 
@@ -19,7 +19,7 @@ Make sure if you are designing something production grade follow this simple quo
 This sample is just to touch up upon basics of what is required to start with Cobra cli. Here is the final project structure for future references
 
 ```sh
-cmd/      # all the command implementions are here     
+cmd/      # all the command implementations are here     
 config/   # configuration related to this app like connection string etc,.
 go.mod    # go module
 go.sum    # go dependencies haskeys
@@ -28,7 +28,7 @@ main.go   # applications starting point
 repo/     # all the services implementation in our case its a service talking to the DB so name repo
 ```
 
-All the command start from the `rootCmd` root command. and it can have any number of child or grand child. Here we will create root-->list-->table and root-->list-->schema, so list has 2 children and theier grand father is root.
+All the command start from the `rootCmd` root command. and it can have any number of child or grand child. Here we will create root-->list-->table and root-->list-->schema, so list has 2 children and their grandfather is root.
 
 Lets use [Cobra code generator](https://github.com/spf13/cobra/blob/master/cobra/README.md) to create commands its mostly auto fills a lot of things for us here is how it looks.
 
@@ -46,7 +46,7 @@ var tableCmd = &cobra.Command{
 	Short: "list tables in schema",
 	Long: `	list tables <schema> - will list the tables in the specified schema
 			--limit - option will let you limit the number of items in the result
-			--offset - used as a start index from nth item to retreive`,
+			--offset - used as a start index from nth item to retrieve`,
 	Run: handlers.TableHandle(),
 }
 
@@ -57,7 +57,7 @@ func init() {
 }
 ```
 
-So the command flags blah blah is already you can try running `go run main.go list table`. This will invoke whatever is assigned to the Run property. In our case I have seperated the handling of business function to handlers. Also note I hae tried using `config.Data.DefaultNameSpace` config using a struct so that we make no mistakes when getting config by string values.
+So the command flags blah blah is already you can try running `go run main.go list table`. This will invoke whatever is assigned to the Run property. In our case I have seperated the handling of business function to handlers. Also note I have tried using `config.Data.DefaultNameSpace` config using a struct so that we make no mistakes when getting config by string values.
 
 This is how the config class looks
 
@@ -89,7 +89,7 @@ func init() {
 }
 ```
 
-If you observe there is a method called [init](https://golang.org/doc/effective_go.html#init) this method is called as soon it is tried to access. Here is a nice explaination from [stackoverflow answer](https://stackoverflow.com/a/49831018/713149).
+If you observe there is a method called [init](https://golang.org/doc/effective_go.html#init) this method is called as soon it is tried to access. Here is a nice explanation from [stackoverflow answer](https://stackoverflow.com/a/49831018/713149).
 
 
 ```yaml
@@ -133,7 +133,7 @@ func TableHandle() func(cmd *cobra.Command, args []string) {
 
 		ddlRepo := repo.Ddl{}
 		if result, err := ddlRepo.GetAllTablesIn(namespace, limit, offset); err != nil {
-			log.Println("Error when retreiving tables in namespace", namespace)
+			log.Println("Error when retrieving tables in namespace", namespace)
 		} else {
 			fmt.Println("---------List of Tables---------\n", strings.Join(result, "\n"))
 		}
@@ -145,3 +145,4 @@ func TableHandle() func(cmd *cobra.Command, args []string) {
 This is should be a good start for writing any cli app anymore. Code on!
 
 Photo by [Pankaj Patel](https://unsplash.com/@pankajpatel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
