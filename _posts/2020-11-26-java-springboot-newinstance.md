@@ -6,9 +6,9 @@ author: bitsmonkey
 tags: java, spring, spring-boot
 ---
 
-![cobra-golang-cli](/img/java-newinstance-springboot.jpg){:.coverimage}
+![java-springboot-newinstance](/img/java-newinstance-springboot.jpg){:.coverimage}
 
-This is one of the ways to get a new instance of a type evrytime we request for it from a singleton scoped instance.
+This is one of the ways to get a new instance of a type everytime we request for it from a singleton scoped instance.
 
 [`@Lookup`](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Lookup.html) Informs spring container to getBean from method decorated with this annotation.
 
@@ -22,7 +22,7 @@ public UserDTO getUserDTOProtoTypeBean() {
 }
 ```
 
-Make sure the `UserDTO` class is decorated with `@Scope("prototype")`. Now in your conuming class call this method when you need a new instance.
+Make sure the `UserDTO` class is decorated with `@Scope("prototype")`. Now in your consuming class call this method when you need a new instance.
 
 
 ```java
