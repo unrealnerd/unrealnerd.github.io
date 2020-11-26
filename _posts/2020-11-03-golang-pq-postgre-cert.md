@@ -69,4 +69,6 @@ EXPORT PGSSLROOTCERT=pathof.pem
 EXPORT CONNSTR="user=username password=password host=dbname.host.com port=5433 dbname=dbname connect_timeout=20 sslmode=verify-full"
 ```
 
+Code On!
+
 Photo by [Ron Whitaker](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
