@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting new instance everytime in Java Sping Boot 
+title: Getting new instance everytime in Java Spring Boot 
 description: Getting new instance everytime in Java Sping Boot
 author: bitsmonkey
 tags: java, spring, spring-boot
