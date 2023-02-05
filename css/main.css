@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: #7dc1cf;
+    color: #000000;
 }
 
 .navigationbar {
@@ -17,15 +17,15 @@ a {
 }
 
 .nav-link {
-    color: #7dc1cf;
+    color: #006cd8;
 }
 
 .postlistatthebottomofhomepage h5 {
-    color: #7dc1cf;
+    color: #000000;
 }
 
 .post h1 {
-    color: #7dc1cf;
+    color: #000000;
 }
 
 .container article.post .coverimage {
